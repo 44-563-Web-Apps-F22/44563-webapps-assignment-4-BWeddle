@@ -20,6 +20,9 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:black;
 }
+.name:hover{
+    text-shadow: 2px 2px 5px rgb(255, 0, 225);
+}
 .zorah{
     color: blueviolet;
 }
@@ -34,9 +37,6 @@
 }
 .all{
     letter-spacing: 7px;
-}
-.both{
-    text-shadow: 2px 2px greenyellow;
 }
 table, th, td{
     border: solid 3px firebrick;
