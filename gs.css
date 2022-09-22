@@ -39,11 +39,23 @@
     color: saddlebrown;
 }
 .chorus{
-    text-decoration: dashed;
+    text-transform: capitalize;
 }
 .all{
     letter-spacing: 7px;
 }
 .both{
     text-shadow: 2px 2px greenyellow;
+}
+table, th, td{
+    border: solid 3px firebrick;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color:darkcyan;
+}
+th, td{
+    margin: 3px;
+    padding: 5px;
 }
